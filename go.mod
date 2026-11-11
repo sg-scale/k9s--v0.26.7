@@ -1,6 +1,6 @@
 module github.com/derailed/k9s
 
-go 1.19
+go 1.24.0
 
 replace github.com/gdamore/tcell/v2 => github.com/derailed/tcell/v2 v2.3.1-rc.2
 
@@ -19,12 +19,12 @@ require (
 	github.com/mattn/go-colorable v0.1.13
 	github.com/mattn/go-runewidth v0.0.14
 	github.com/petergtz/pegomock v2.9.0+incompatible
-	github.com/rakyll/hey v0.1.4
+	github.com/rakyll/hey v0.1.5
 	github.com/rs/zerolog v1.28.0
 	github.com/sahilm/fuzzy v0.1.0
 	github.com/spf13/cobra v1.6.0
 	github.com/stretchr/testify v1.8.0
-	golang.org/x/text v0.4.0
+	golang.org/x/text v0.33.0
 	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.10.1
 	k8s.io/api v0.25.3
@@ -147,12 +147,12 @@ require (
 	github.com/xlab/treeprint v1.1.0 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.4 // indirect
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
-	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
-	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
+	golang.org/x/crypto v0.46.0 // indirect
+	golang.org/x/net v0.48.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/sys v0.0.0-20220908164124-27713097b956 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
+	golang.org/x/sync v0.19.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/term v0.38.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
